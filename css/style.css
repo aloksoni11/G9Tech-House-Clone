@@ -1,0 +1,167 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.head {
+    height: 60px;
+    width: 100%;
+    background-color: purple;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.menu {
+    height: 100%;
+    width: 60%;
+    /*    background-color: orange;*/
+    margin: auto;
+}
+
+.G9 {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    position: relative;
+}
+
+.container {
+    height: 60%;
+    width: 60%;
+    background-color: orange;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.heading {
+    height: 80px;
+    width: 60%;
+    background-color: green;
+    margin: 50px auto;
+}
+
+.text {
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+
+.services {
+    /*    height: 1050px;*/
+    width: 100%;
+    background-color: aqua;
+
+}
+
+/*clearfix*/
+.services::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.service-left {
+    height: 400px;
+    width: 25%;
+    background-color: cornflowerblue;
+    margin-left: 100px;
+    margin-top: 150px;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.service-right {
+    height: 500px;
+    width: 60%;
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: 550px;
+}
+
+.portfolio {
+
+    width: 100%;
+    background-color: orange;
+}
+
+.portfolio::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.portfolio-right {
+    height: 400px;
+    width: 25%;
+    background-color: brown;
+    margin-right: 100px;
+    margin-top: 150px;
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.portfolio-left {
+    overflow: auto;
+    width: 60%;
+/*    background-color: deeppink;*/
+    float: right;
+    margin-top: 550px;
+
+}
+
+.Port-contain {
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+/*    border: 1px red solid;*/
+}
+.Load-more{
+    height: 100px;
+    width: 50%;
+    background-color: darkred;
+    float: right;
+}
+
+.crafters{
+    height: 100%;
+    width: 100%;
+    background-color: lawngreen;
+}
+.crafters-right {
+    height: 400px;
+    width: 25%;
+    background-color: brown;
+    margin-left: 100px;
+    margin-top: 150px;
+    float: left;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.crafters-left {
+    overflow: auto;
+    width: 60%;
+    background-color: deeppink;
+    float: left;
+    margin-top: 550px;
+
+}
+
+.crafters-contain {
+    height: 600px;
+    width: 100%;
+/*    background-color: aqua;*/
+/*    border: 1px red solid;*/
+}
