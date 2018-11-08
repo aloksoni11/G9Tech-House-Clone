@@ -6,12 +6,11 @@ body {
 }
 
 .head {
-    height: 60px;
+    height: 80px;
     width: 100%;
-    background-color: purple;
+    background-color: rgb(50, 219, 138);
     position: fixed;
     z-index: 1;
-
 }
 
 .menu {
@@ -24,7 +23,10 @@ body {
 .G9 {
     height: 100%;
     width: 100%;
-    background-color: pink;
+    /*    background-color: pink;*/
+    background-image: url(../images/background_img_01b.jpg);
+    background-size: cover;
+    background-position: center center;
     position: relative;
 }
 
@@ -56,11 +58,12 @@ body {
 .services {
     /*    height: 1050px;*/
     width: 100%;
-    background-color: aqua;
-
+    background-color: #221c5a;
 }
 
+
 /*clearfix*/
+
 .services::after {
     content: " ";
     display: block;
@@ -88,9 +91,11 @@ body {
 }
 
 .portfolio {
-
     width: 100%;
     background-color: orange;
+    background-image: url(../images/background_img_02.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .portfolio::after {
@@ -114,54 +119,153 @@ body {
 .portfolio-left {
     overflow: auto;
     width: 60%;
-/*    background-color: deeppink;*/
+    /*    background-color: deeppink;*/
     float: right;
     margin-top: 550px;
-
 }
 
 .Port-contain {
     height: 600px;
     width: 100%;
     background-color: aqua;
-/*    border: 1px red solid;*/
+    /*    border: 1px red solid;*/
 }
-.Load-more{
+
+.Load-more {
     height: 100px;
     width: 50%;
     background-color: darkred;
     float: right;
 }
 
-.crafters{
-    height: 100%;
+.crafters {
+    /*    overflow: auto;*/
     width: 100%;
-    background-color: lawngreen;
+    background-image: url(../images/background_img_03.jpg);
+    background-size: cover;
+    background-position: center center;
 }
-.crafters-right {
+
+.crafters::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.crafters-left {
     height: 400px;
     width: 25%;
-    background-color: brown;
+    background-color: aqua;
+    float: left;
     margin-left: 100px;
     margin-top: 150px;
-    float: left;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
-.crafters-left {
+.crafters-right {
     overflow: auto;
     width: 60%;
     background-color: deeppink;
     float: left;
     margin-top: 550px;
-
 }
 
 .crafters-contain {
     height: 600px;
     width: 100%;
-/*    background-color: aqua;*/
-/*    border: 1px red solid;*/
+    /*    background-color: aqua;*/
+    /*    border: 1px red solid;*/
+}
+
+.Project {
+    /*    overflow: auto;*/
+    width: 100%;
+    background-image: url(../images/background_img_04.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Project::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.Project-right {
+    height: 400px;
+    width: 25%;
+    background-color: aqua;
+    float: right;
+    margin-right: 100px;
+    margin-top: 150px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+.Project-left {
+    overflow: auto;
+    width: 60%;
+    background-color: chartreuse;
+    float: right;
+    margin-top: 550px;
+}
+
+.Project-contain {
+    height: 600px;
+    width: 100%;
+
+}
+
+.Review {
+    height: 100%;
+    width: 100%;
+    background-color: #221c5a;
+}
+
+.Contact {
+    width: 100%;
+    background-image: url(../images/background_img_05b.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.Contact::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Contact-left {
+    width: 25%;
+    height: 400px;
+    background-color: cornflowerblue;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.Contact-right {
+    overflow: auto;
+    width: 60%;
+    background-color: chartreuse;
+    float: left;
+    margin-top: 550px;
+}
+
+.Contact-contain {
+    height: 400px;
+    width: 100%
+}
+
+.footer {
+    height: 274px;
+    width: 100%;
+
 }
