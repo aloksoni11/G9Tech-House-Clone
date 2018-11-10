@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Literature</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer2"
+  d="M8 13.5v34.9c0 4 2.9 4.9 2.9 4.9L32 62V25.5l-20.7-8.6c-1.6-.7-3.3-2-3.3-3.5"
+  fill="#f27e7c"></path>
+  <path data-name="layer1" d="M32 62V25.5l-20.7-8.6c-2.2-1-4.6-3.1-2.5-5.2s6.4-.9 8.7.2L40 21.1V58s-6-.4-8 4z"
+  fill="#fff"></path>
+  <path d="M17.5 12c-2.3-1.1-6.4-2.3-8.7-.2a2.3 2.3 0 0 0-.8 1.6c2.3-.7 5.2.2 7 1.1l22 9v34.8a21.2 21.2 0 0 1 3-.3V21.1zM32 61.8v.2l.2-.4z"
+  fill="#000064" opacity=".15"></path>
+  <path data-name="layer1" d="M40 58V21.5l-20.7-8.6c-2.2-1-4.6-3.1-2.5-5.2s6.4-.9 8.7.2L48 17.1V54s-6-.4-8 4z"
+  fill="#fff"></path>
+  <path d="M25.5 8c-2.3-1.1-6.4-2.3-8.7-.2a2.3 2.3 0 0 0-.8 1.6c2.3-.7 5.2.2 7 1.1l22 9v34.8a21.2 21.2 0 0 1 3-.3V17.1zM40 57.8v.2l.2-.4z"
+  fill="#000064" opacity=".15"></path>
+  <path data-name="layer1" d="M48 53.4V16.9L27.3 8.3c-2.2-1-4.6-3.1-2.5-5.2s6.4-.9 8.7.2L56 12.5v36.9s-6-.4-8 4z"
+  fill="#fff"></path>
+  <path d="M33.5 3.3c-2.3-1.1-6.4-2.3-8.7-.2a2.3 2.3 0 0 0-.8 1.6c2.3-.7 5.2.2 7 1.1l22 9v34.9a21.2 21.2 0 0 1 3-.3V12.5zM48 53.1v.2l.2-.4z"
+  fill="#000064" opacity=".15"></path>
+  <path data-name="opacity" d="M11.3 16.9c-1.6-.7-3.3-2-3.3-3.5v35c0 4 2.9 4.9 2.9 4.9l2.1.9V17.7z"
+  fill="#000064" opacity=".15"></path>
+  <path data-name="stroke" d="M19.1 12.6c-2.2-1-4.4-3.2-2.3-5.2s6.4-.9 8.7.2L48 16.8V54"
+  fill="none" stroke="#2e4369" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="2" stroke-linejoin="round"></path>
+  <path data-name="stroke" d="M27.2 8.4c-2.2-1-4.4-3.2-2.3-5.2s6.4-.9 8.7.2L56 12.5V50"
+  fill="none" stroke="#2e4369" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="2" stroke-linejoin="round"></path>
+  <path data-name="stroke" d="M8 13.5v34.9c0 4 2.9 4.9 2.9 4.9L32 62V25.5l-20.7-8.6c-2.2-1-4.6-3.1-2.5-5.2s6.4-.9 8.7.2L40 21.1V58"
+  fill="none" stroke="#2e4369" stroke-linecap="round" stroke-miterlimit="10"
+  stroke-width="2" stroke-linejoin="round"></path>
+</svg>

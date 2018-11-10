@@ -6,7 +6,7 @@ body {
 }
 
 .head {
-    height: 80px;
+    height: 65px;
     width: 100%;
     background-color: rgb(50, 219, 138);
     position: fixed;
@@ -16,7 +16,7 @@ body {
 .menu {
     height: 100%;
     width: 60%;
-    /*    background-color: orange;*/
+    background-color: orange;
     margin: auto;
 }
 
@@ -33,7 +33,7 @@ body {
 .container {
     height: 60%;
     width: 60%;
-    background-color: orange;
+    /*    background-color: orange;*/
     position: absolute;
     margin: auto;
     top: 0;
@@ -43,16 +43,16 @@ body {
 }
 
 .heading {
-    height: 80px;
+    height: 100px;
     width: 60%;
-    background-color: green;
+    /*    background-color: green;*/
     margin: 50px auto;
 }
 
 .text {
-    height: 50%;
+    height: 60%;
     width: 100%;
-    background-color: red;
+    /*    background-color: red;*/
 }
 
 .services {
@@ -73,9 +73,8 @@ body {
 .service-left {
     height: 400px;
     width: 25%;
-    background-color: cornflowerblue;
+    background-color: rgb(50, 219, 138);
     margin-left: 100px;
-    margin-top: 150px;
     float: left;
     position: -webkit-sticky;
     position: sticky;
@@ -85,9 +84,9 @@ body {
 .service-right {
     height: 500px;
     width: 60%;
-    background-color: cornflowerblue;
+    background-color: white;
     float: left;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .portfolio {
@@ -107,9 +106,8 @@ body {
 .portfolio-right {
     height: 400px;
     width: 25%;
-    background-color: brown;
+    background-color: rgb(255, 186, 66);
     margin-right: 100px;
-    margin-top: 150px;
     float: right;
     position: -webkit-sticky;
     position: sticky;
@@ -119,22 +117,21 @@ body {
 .portfolio-left {
     overflow: auto;
     width: 60%;
-    /*    background-color: deeppink;*/
+    /*        background-color: whitesmoke;*/
     float: right;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .Port-contain {
-    height: 600px;
+    overflow: auto;
     width: 100%;
-    background-color: aqua;
-    /*    border: 1px red solid;*/
+    margin: -4px 0px;
 }
 
 .Load-more {
     height: 100px;
-    width: 50%;
-    background-color: darkred;
+    width: 58.5%;
+    background-color: #e64b77;
     float: right;
 }
 
@@ -155,10 +152,9 @@ body {
 .crafters-left {
     height: 400px;
     width: 25%;
-    background-color: aqua;
+    background-color: #e64b77;
     float: left;
     margin-left: 100px;
-    margin-top: 150px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -167,13 +163,14 @@ body {
 .crafters-right {
     overflow: auto;
     width: 60%;
-    background-color: deeppink;
+    background-color: white;
     float: left;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .crafters-contain {
-    height: 600px;
+    /*    height: ?;*/
+    overflow: auto;
     width: 100%;
     /*    background-color: aqua;*/
     /*    border: 1px red solid;*/
@@ -196,14 +193,12 @@ body {
 .Project-right {
     height: 400px;
     width: 25%;
-    background-color: aqua;
+    background-color: #32DB8A;
     float: right;
     margin-right: 100px;
-    margin-top: 150px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-
 }
 
 .Project-left {
@@ -211,13 +206,12 @@ body {
     width: 60%;
     background-color: chartreuse;
     float: right;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .Project-contain {
     height: 600px;
     width: 100%;
-
 }
 
 .Review {
@@ -242,9 +236,8 @@ body {
 .Contact-left {
     width: 25%;
     height: 400px;
-    background-color: cornflowerblue;
+    background-color: rgb(230, 75, 119);
     float: left;
-    margin-top: 150px;
     margin-left: 100px;
     position: -webkit-sticky;
     position: sticky;
@@ -256,7 +249,7 @@ body {
     width: 60%;
     background-color: chartreuse;
     float: left;
-    margin-top: 550px;
+    margin-top: 400px;
 }
 
 .Contact-contain {
@@ -267,5 +260,191 @@ body {
 .footer {
     height: 274px;
     width: 100%;
+    background-color: #221c5a;
+}
 
+.big-title {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: baseline;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title-desc {
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+
+.nun {
+    height: 180px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.number {
+    font-family: 'Roboto', sans-serif;
+    font-size: 180px;
+    height: 100%;
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: -5px;
+    margin-left: -64px;
+    background-color: transparent;
+    color: #55B286;
+}
+
+.entry-title {
+    overflow: auto;
+    margin-top: -30px;
+    /*    width: 50%;*/
+    /*    background-color: orange;*/
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 79px;
+    font-weight: 700;
+    width: 245px;
+    word-break: break-all;
+    color: white;
+    letter-spacing: -3px;
+    line-height: 90px;
+}
+
+.main-service {
+    height: 90%;
+    width: 90%;
+    margin: 2.5% auto;
+}
+
+.ser-contain {
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    float: left;
+}
+
+.contain-holder {
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+.title-holder {
+    height: 30px;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #23214c;
+}
+
+.text-contain {
+    width: 100%;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #23214c;
+    line-height: 26px;
+    vertical-align: baseline;
+    line-height: 26px;
+}
+
+.more-port {
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.Craft-title {
+    height: 200px;
+    width: 100%;
+}
+
+.Craft-title-p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 180px;
+    text-align: center;
+    margin-top: -90px;
+    color: #221c5a;
+}
+
+.Craft-contain {
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+
+.Contain-sub {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.title-holder2 {
+    height: 50px;
+    width: 80%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 400;
+    color: #221c5a;
+}
+
+.text-holder {
+    height: 80%;
+    width: 100%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #221c5a;
+}
+
+.lead-des {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+
+.lead-title {
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 5px;
+    font-weight: 400;
+}
+
+.lead-disc {
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 29px;
+    font-weight: 400;
+    font-size: 16px;
 }
