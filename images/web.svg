@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Html5</title>
+  <desc>A color styled icon from Orion Icon Library.</desc>
+  <path data-name="layer1"
+  d="M4.6 0l5.2 57.5 23 6.5 23-6.5L61 0zm45.2 18.8h-27l.6 7.2h25.8l-2 21.8-14.4 4h-.2l-14.5-4-.9-11.1h7l.5 5.6 7.8 2.1 7.9-2.1.9-9.1H17l-1.9-21.4h35.4z"
+  fill="#fc490b"></path>
+</svg>
