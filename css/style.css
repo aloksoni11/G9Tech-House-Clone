@@ -291,6 +291,7 @@ body {
     height: 180px;
     width: 100%;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 .number {
@@ -300,7 +301,7 @@ body {
     width: 100%;
     font-weight: 700;
     letter-spacing: -5px;
-    margin-left: -64px;
+    margin-left: -49px;
     background-color: transparent;
     color: #55B286;
 }
